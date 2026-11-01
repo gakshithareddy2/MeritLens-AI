@@ -1,0 +1,962 @@
+{
+  "users": [
+    {
+      "id": "USR-TEACHER-01",
+      "email": "teacher@meritlens.edu",
+      "name": "Ms. Priya",
+      "role": "teacher",
+      "department": "Department of STEM & Academic Success",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "passwordHash": "admin123"
+    },
+    {
+      "id": "USR-STUDENT-01",
+      "email": "mahitha@student.edu",
+      "name": "Mahitha",
+      "role": "student",
+      "studentId": "STU001",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "passwordHash": "student123"
+    },
+    {
+      "id": "USR-STUDENT-02",
+      "email": "akshitha@student.edu",
+      "name": "Akshitha",
+      "role": "student",
+      "studentId": "STU002",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "passwordHash": "student123"
+    },
+    {
+      "id": "USR-STUDENT-03",
+      "email": "madhu@student.edu",
+      "name": "Madhu",
+      "role": "student",
+      "studentId": "STU003",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "passwordHash": "student123"
+    },
+    {
+      "id": "USR-STUDENT-04",
+      "email": "bhommi@student.edu",
+      "name": "Bhommi",
+      "role": "student",
+      "studentId": "STU004",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "passwordHash": "student123"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Mahitha",
+      "email": "mahitha@student.edu",
+      "class": "Class 10-A",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "attendance": 80,
+      "assignmentCompletion": 73,
+      "studyHoursWeek": 10,
+      "previousMarks": 88,
+      "currentScore": 69.3,
+      "predictedScore": 77.4,
+      "performanceCategory": "Pass",
+      "riskLevel": "Moderate",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 52,
+          "attendance": 80,
+          "assignments": 73,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 66,
+          "attendance": 80,
+          "assignments": 73,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 89,
+          "attendance": 80,
+          "assignments": 73,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 70,
+          "attendance": 80,
+          "assignments": 73,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Mid-Term",
+          "score": 89,
+          "attendance": 93
+        },
+        {
+          "term": "Term 3",
+          "score": 91,
+          "attendance": 96
+        },
+        {
+          "term": "Pre-Board",
+          "score": 90.5,
+          "attendance": 94.5
+        },
+        {
+          "term": "Updated 01/11/2026",
+          "score": 90.5,
+          "attendance": 80
+        },
+        {
+          "term": "Updated 01/11/2026",
+          "score": 69.3,
+          "attendance": 80
+        }
+      ],
+      "strengths": [
+        "Verbal reasoning and analytical writing",
+        "Autonomous time management",
+        "Consistent classroom engagement"
+      ],
+      "improvementAreas": [
+        "Subject-specific bottleneck in Mathematics (52%): Needs targeted conceptual reinforcement."
+      ],
+      "parentContact": "john.watson@parent.edu (+1-555-0192)",
+      "joinedDate": "2025-08-15"
+    },
+    {
+      "id": "STU002",
+      "name": "Akshitha",
+      "email": "akshitha@student.edu",
+      "class": "Class 10-A",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "attendance": 94,
+      "assignmentCompletion": 84,
+      "studyHoursWeek": 16,
+      "previousMarks": 68,
+      "currentScore": 86.5,
+      "predictedScore": 83.8,
+      "performanceCategory": "Distinction",
+      "riskLevel": "Low",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 87,
+          "attendance": 94,
+          "assignments": 84,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 75,
+          "attendance": 94,
+          "assignments": 84,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 93,
+          "attendance": 94,
+          "assignments": 84,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 91,
+          "attendance": 94,
+          "assignments": 84,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Term 2",
+          "score": 67,
+          "attendance": 75
+        },
+        {
+          "term": "Mid-Term",
+          "score": 66,
+          "attendance": 73
+        },
+        {
+          "term": "Term 3",
+          "score": 64,
+          "attendance": 71
+        },
+        {
+          "term": "Pre-Board",
+          "score": 65,
+          "attendance": 72
+        },
+        {
+          "term": "Updated 01/11/2026",
+          "score": 86.5,
+          "attendance": 94
+        }
+      ],
+      "strengths": [
+        "Strong creative writing intuition",
+        "Good visual problem solving in geometry"
+      ],
+      "improvementAreas": [
+        "Balanced study habits maintained across all core evaluation metrics."
+      ],
+      "parentContact": "mei.chen@parent.edu (+1-555-0188)",
+      "joinedDate": "2025-08-15"
+    },
+    {
+      "id": "STU003",
+      "name": "Madhu",
+      "email": "madhu@student.edu",
+      "class": "Class 10-B",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "attendance": 91,
+      "assignmentCompletion": 92,
+      "studyHoursWeek": 14,
+      "previousMarks": 84,
+      "currentScore": 85.2,
+      "predictedScore": 87,
+      "performanceCategory": "Merit",
+      "riskLevel": "Low",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 86,
+          "attendance": 92,
+          "assignments": 90,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 88,
+          "attendance": 94,
+          "assignments": 95,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 82,
+          "attendance": 89,
+          "assignments": 90,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 85,
+          "attendance": 89,
+          "assignments": 93,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Term 1",
+          "score": 80,
+          "attendance": 88
+        },
+        {
+          "term": "Term 2",
+          "score": 82,
+          "attendance": 90
+        },
+        {
+          "term": "Mid-Term",
+          "score": 84,
+          "attendance": 91
+        },
+        {
+          "term": "Term 3",
+          "score": 85,
+          "attendance": 92
+        },
+        {
+          "term": "Pre-Board",
+          "score": 85.2,
+          "attendance": 91
+        }
+      ],
+      "strengths": [
+        "Analytical laboratory chemistry experimental technique",
+        "High homework adherence"
+      ],
+      "improvementAreas": [
+        "English literature close reading analysis",
+        "Speed on timed multi-choice math sections"
+      ],
+      "parentContact": "carlos.rodriguez@parent.edu (+1-555-0144)",
+      "joinedDate": "2025-08-15"
+    },
+    {
+      "id": "STU004",
+      "name": "Bhommi",
+      "email": "bhommi@student.edu",
+      "class": "Class 10-B",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "attendance": 64,
+      "assignmentCompletion": 55,
+      "studyHoursWeek": 5.5,
+      "previousMarks": 58,
+      "currentScore": 54,
+      "predictedScore": 52.4,
+      "performanceCategory": "At Risk",
+      "riskLevel": "High",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 52,
+          "attendance": 62,
+          "assignments": 50,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 50,
+          "attendance": 60,
+          "assignments": 48,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 60,
+          "attendance": 68,
+          "assignments": 62,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 54,
+          "attendance": 66,
+          "assignments": 60,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Term 1",
+          "score": 62,
+          "attendance": 75
+        },
+        {
+          "term": "Term 2",
+          "score": 59,
+          "attendance": 70
+        },
+        {
+          "term": "Mid-Term",
+          "score": 57,
+          "attendance": 66
+        },
+        {
+          "term": "Term 3",
+          "score": 55,
+          "attendance": 65
+        },
+        {
+          "term": "Pre-Board",
+          "score": 54,
+          "attendance": 64
+        }
+      ],
+      "strengths": [
+        "Hands-on engineering workshop projects",
+        "Inquisitive class participation when present"
+      ],
+      "improvementAreas": [
+        "Persistent attendance shortfall",
+        "Severe backlog in Science assignments",
+        "Exam anxiety"
+      ],
+      "parentContact": "priya.patel@parent.edu (+1-555-0163)",
+      "joinedDate": "2025-08-15"
+    },
+    {
+      "id": "STU005",
+      "name": "Sara",
+      "email": "ava.johnson@student.edu",
+      "class": "Class 11-A",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80",
+      "attendance": 96,
+      "assignmentCompletion": 95,
+      "studyHoursWeek": 18,
+      "previousMarks": 91,
+      "currentScore": 92.8,
+      "predictedScore": 94.1,
+      "performanceCategory": "Distinction",
+      "riskLevel": "Low",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 94,
+          "attendance": 98,
+          "assignments": 95,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 96,
+          "attendance": 96,
+          "assignments": 98,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 89,
+          "attendance": 94,
+          "assignments": 92,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 92,
+          "attendance": 96,
+          "assignments": 95,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Term 1",
+          "score": 89,
+          "attendance": 95
+        },
+        {
+          "term": "Term 2",
+          "score": 91,
+          "attendance": 96
+        },
+        {
+          "term": "Mid-Term",
+          "score": 92,
+          "attendance": 96
+        },
+        {
+          "term": "Term 3",
+          "score": 93,
+          "attendance": 97
+        },
+        {
+          "term": "Pre-Board",
+          "score": 92.8,
+          "attendance": 96
+        }
+      ],
+      "strengths": [
+        "Exceptional mathematical problem solving",
+        "High academic rigor"
+      ],
+      "improvementAreas": [
+        "Work-life-study balance",
+        "Stress mitigation"
+      ],
+      "parentContact": "sarah.johnson@parent.edu (+1-555-0177)",
+      "joinedDate": "2024-08-20"
+    },
+    {
+      "id": "STU006",
+      "name": "Kiran",
+      "email": "lucas.martin@student.edu",
+      "class": "Class 11-A",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "attendance": 81,
+      "assignmentCompletion": 80,
+      "studyHoursWeek": 9.5,
+      "previousMarks": 72,
+      "currentScore": 74.2,
+      "predictedScore": 76,
+      "performanceCategory": "Merit",
+      "riskLevel": "Moderate",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 75,
+          "attendance": 82,
+          "assignments": 80,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 70,
+          "attendance": 79,
+          "assignments": 78,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 78,
+          "attendance": 84,
+          "assignments": 82,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 74,
+          "attendance": 79,
+          "assignments": 80,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Term 1",
+          "score": 71,
+          "attendance": 80
+        },
+        {
+          "term": "Term 2",
+          "score": 72,
+          "attendance": 81
+        },
+        {
+          "term": "Mid-Term",
+          "score": 73,
+          "attendance": 82
+        },
+        {
+          "term": "Term 3",
+          "score": 75,
+          "attendance": 82
+        },
+        {
+          "term": "Pre-Board",
+          "score": 74.2,
+          "attendance": 81
+        }
+      ],
+      "strengths": [
+        "Consistent steady progression",
+        "Collaborative peer engagement"
+      ],
+      "improvementAreas": [
+        "Science laboratory experiment writeups",
+        "Targeted weekend revision schedule"
+      ],
+      "parentContact": "david.martin@parent.edu (+1-555-0129)",
+      "joinedDate": "2024-08-20"
+    },
+    {
+      "id": "STU007",
+      "name": "Mia Tanaka",
+      "email": "mia.tanaka@student.edu",
+      "class": "Class 12-Sci",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "attendance": 88.5,
+      "assignmentCompletion": 85,
+      "studyHoursWeek": 11,
+      "previousMarks": 79,
+      "currentScore": 81,
+      "predictedScore": 82.5,
+      "performanceCategory": "Merit",
+      "riskLevel": "Low",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 82,
+          "attendance": 89,
+          "assignments": 86,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 80,
+          "attendance": 87,
+          "assignments": 84,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 84,
+          "attendance": 90,
+          "assignments": 88,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 78,
+          "attendance": 88,
+          "assignments": 82,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Term 1",
+          "score": 78,
+          "attendance": 87
+        },
+        {
+          "term": "Term 2",
+          "score": 79,
+          "attendance": 88
+        },
+        {
+          "term": "Mid-Term",
+          "score": 80,
+          "attendance": 89
+        },
+        {
+          "term": "Term 3",
+          "score": 81,
+          "attendance": 89
+        },
+        {
+          "term": "Pre-Board",
+          "score": 81,
+          "attendance": 88.5
+        }
+      ],
+      "strengths": [
+        "Active listener",
+        "Consistently thorough notes",
+        "Strong grammatical grasp"
+      ],
+      "improvementAreas": [
+        "Independent study hours increase",
+        "Historical document interpretation"
+      ],
+      "parentContact": "kenji.tanaka@parent.edu (+1-555-0111)",
+      "joinedDate": "2023-09-01"
+    },
+    {
+      "id": "STU008",
+      "name": "Rohan",
+      "email": "ethan.davis@student.edu",
+      "class": "Class 12-Sci",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "attendance": 58,
+      "assignmentCompletion": 48,
+      "studyHoursWeek": 4,
+      "previousMarks": 50,
+      "currentScore": 50,
+      "predictedScore": 47.8,
+      "performanceCategory": "At Risk",
+      "riskLevel": "Critical",
+      "subjects": [
+        {
+          "subject": "Mathematics",
+          "score": 45,
+          "attendance": 55,
+          "assignments": 42,
+          "teacher": "Mr. Harrison"
+        },
+        {
+          "subject": "Science",
+          "score": 48,
+          "attendance": 56,
+          "assignments": 45,
+          "teacher": "Ms. Priya"
+        },
+        {
+          "subject": "English",
+          "score": 55,
+          "attendance": 62,
+          "assignments": 54,
+          "teacher": "Ms. Albright"
+        },
+        {
+          "subject": "History",
+          "score": 52,
+          "attendance": 59,
+          "assignments": 51,
+          "teacher": "Mr. Sterling"
+        }
+      ],
+      "historicalTrends": [
+        {
+          "term": "Term 1",
+          "score": 56,
+          "attendance": 68
+        },
+        {
+          "term": "Term 2",
+          "score": 53,
+          "attendance": 64
+        },
+        {
+          "term": "Mid-Term",
+          "score": 51,
+          "attendance": 60
+        },
+        {
+          "term": "Term 3",
+          "score": 49,
+          "attendance": 58
+        },
+        {
+          "term": "Pre-Board",
+          "score": 50,
+          "attendance": 58
+        }
+      ],
+      "strengths": [
+        "Practical athletics engagement",
+        "Positive peer rapport"
+      ],
+      "improvementAreas": [
+        "Chronic absenteeism in first period",
+        "Unfinished assignment load",
+        "Fundamental math gaps"
+      ],
+      "parentContact": "karen.davis@parent.edu (+1-555-0155)",
+      "joinedDate": "2023-09-01"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "REC-001",
+      "studentId": "STU001",
+      "studentName": "Mahitha",
+      "subject": "History",
+      "topic": "Understanding History Sources and Causes",
+      "reason": "Your History mark is 86%. Practise explaining events using short History texts.",
+      "action": "Read 3 short History texts. Write 2–3 sentences about each one.",
+      "suggestedTimeMinutes": 45,
+      "priority": "Medium",
+      "status": "Completed",
+      "createdAt": "2026-10-28T09:00:00Z",
+      "aiGenerated": false,
+      "completedAt": "2026-10-31T19:21:04.253Z"
+    },
+    {
+      "id": "REC-002",
+      "studentId": "STU001",
+      "studentName": "Mahitha",
+      "subject": "Science",
+      "topic": "Heat Changes in Chemical Reactions",
+      "reason": "You missed 2 questions about heat in chemical reactions.",
+      "action": "Solve 10 questions about heat changes. Check your answers after each question.",
+      "suggestedTimeMinutes": 35,
+      "priority": "Medium",
+      "status": "Completed",
+      "completedAt": "2026-10-30T16:20:00Z",
+      "createdAt": "2026-10-25T11:30:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "REC-003",
+      "studentId": "STU001",
+      "studentName": "Mahitha",
+      "subject": "Mathematics",
+      "topic": "Vectors and 3D Shapes",
+      "reason": "Your Maths mark is 92%. Try a few harder questions.",
+      "action": "Try 2 harder questions about shapes and vectors.",
+      "suggestedTimeMinutes": 50,
+      "priority": "Low",
+      "status": "In Progress",
+      "createdAt": "2026-10-29T14:15:00Z",
+      "aiGenerated": true
+    },
+    {
+      "id": "REC-004",
+      "studentId": "STU002",
+      "studentName": "Akshitha",
+      "subject": "Science",
+      "topic": "Chemical Balance and Le Chatelier’s Principle",
+      "reason": "Your Science mark is 58%. Review how a chemical reaction changes.",
+      "action": "Watch a short lesson, draw an example, then practise with 12 cards.",
+      "suggestedTimeMinutes": 45,
+      "priority": "High",
+      "status": "Completed",
+      "createdAt": "2026-10-27T08:30:00Z",
+      "aiGenerated": false,
+      "completedAt": "2026-11-01T12:50:14.392Z"
+    },
+    {
+      "id": "REC-005",
+      "studentId": "STU002",
+      "studentName": "Akshitha",
+      "subject": "Mathematics",
+      "topic": "Quadratic Equations and the Discriminant",
+      "reason": "Your Maths mark is 62%. Practise solving quadratic equations.",
+      "action": "Solve 15 quadratic equations. Check your answers carefully.",
+      "suggestedTimeMinutes": 40,
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-10-28T10:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "REC-006",
+      "studentId": "STU002",
+      "studentName": "Akshitha",
+      "subject": "Study Skills",
+      "topic": "Short Study Sessions and Catching Up on Work",
+      "reason": "You have finished 65% of your assignments. Finishing missing work can improve your overall result.",
+      "action": "Study for 25 minutes three times each evening to finish your missing Science and Maths work.",
+      "suggestedTimeMinutes": 30,
+      "priority": "High",
+      "status": "Pending",
+      "createdAt": "2026-10-29T08:00:00Z",
+      "aiGenerated": true
+    },
+    {
+      "id": "REC-007",
+      "studentId": "STU004",
+      "studentName": "Bhommi",
+      "subject": "Mathematics",
+      "topic": "Linear Equations and Graphs",
+      "reason": "Your mark is 52%. Review substitution and how to draw straight-line graphs.",
+      "action": "Complete a worksheet and follow a step-by-step video. Practise equations with two unknowns.",
+      "suggestedTimeMinutes": 50,
+      "priority": "High",
+      "status": "Pending",
+      "createdAt": "2026-10-26T14:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "REC-008",
+      "studentId": "STU004",
+      "studentName": "Bhommi",
+      "subject": "Science",
+      "topic": "Newton’s Laws and Force Diagrams",
+      "reason": "Your mark is 50%. Practise questions about forces acting in opposite directions.",
+      "action": "Draw eight force diagrams for slopes and solve F = ma questions with your teacher.",
+      "suggestedTimeMinutes": 45,
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-10-27T16:00:00Z",
+      "aiGenerated": false
+    },
+    {
+      "id": "REC-009",
+      "studentId": "STU003",
+      "studentName": "Madhu",
+      "subject": "English",
+      "topic": "Poems: Rhythm, Rhyme, and Meaning",
+      "reason": "Your English mark is 82%. Practise finding hidden meanings and comparisons in poems.",
+      "action": "Read two poems. Mark their rhyme, descriptions, and changes between sections.",
+      "suggestedTimeMinutes": 40,
+      "priority": "Medium",
+      "status": "Pending",
+      "createdAt": "2026-10-28T12:00:00Z",
+      "aiGenerated": false
+    }
+  ],
+  "goals": [
+    {
+      "studentId": "STU001",
+      "title": "DSA practice",
+      "subject": "DSA",
+      "targetDate": "2026-11-03",
+      "progress": 100,
+      "status": "Completed",
+      "durationMinutes": 50,
+      "id": "GOL-mvxtpf2l-880",
+      "createdAt": "2026-11-01T12:45:41.133Z"
+    },
+    {
+      "id": "GOL-001",
+      "studentId": "STU001",
+      "title": "Understand History Sources",
+      "subject": "History",
+      "targetDate": "2026-11-15",
+      "progress": 75,
+      "status": "Active",
+      "notes": "Read 2 of 3 short History texts.",
+      "createdAt": "2026-10-20T10:00:00Z"
+    },
+    {
+      "id": "GOL-002",
+      "studentId": "STU001",
+      "title": "Revise Chemistry Lab Work",
+      "subject": "Science",
+      "targetDate": "2026-11-05",
+      "progress": 100,
+      "status": "Completed",
+      "notes": "Checked the Science answers and fixed mistakes with the teacher.",
+      "createdAt": "2026-10-18T14:30:00Z"
+    },
+    {
+      "id": "GOL-003",
+      "studentId": "STU002",
+      "title": "Finish More Assignments This Month",
+      "subject": "General Study",
+      "targetDate": "2026-11-10",
+      "progress": 45,
+      "status": "Active",
+      "notes": "Handed in 3 missing tasks. 4 Maths tasks are left.",
+      "createdAt": "2026-10-22T09:00:00Z"
+    },
+    {
+      "id": "GOL-004",
+      "studentId": "STU002",
+      "title": "Get 70% in the Next Science Test",
+      "subject": "Science",
+      "targetDate": "2026-11-12",
+      "progress": 30,
+      "status": "Behind",
+      "notes": "Needs help with Science formulas. Plan a study session.",
+      "createdAt": "2026-10-23T11:00:00Z"
+    },
+    {
+      "id": "GOL-005",
+      "studentId": "STU004",
+      "title": "Finish Maths Worksheets",
+      "subject": "Mathematics",
+      "targetDate": "2026-11-08",
+      "progress": 50,
+      "status": "Active",
+      "notes": "Went to the after-school homework club.",
+      "createdAt": "2026-10-25T13:00:00Z"
+    }
+  ],
+  "interventions": [
+    {
+      "id": "INT-001",
+      "studentId": "STU002",
+      "studentName": "Akshitha",
+      "teacherId": "USR-TEACHER-01",
+      "teacherName": "Ms. Priya",
+      "date": "2026-10-24",
+      "category": "Attendance",
+      "observation": "Akshitha missed three morning Science classes. He needs help with chemical balance.",
+      "actionTaken": "The teacher spoke with Akshitha and his parent. Akshitha will review the lesson and ask questions in class.",
+      "followUpDate": "2026-11-07",
+      "outcome": "Ongoing"
+    },
+    {
+      "id": "INT-002",
+      "studentId": "STU004",
+      "studentName": "Bhommi",
+      "teacherId": "USR-TEACHER-01",
+      "teacherName": "Ms. Priya",
+      "date": "2026-10-22",
+      "category": "Academic",
+      "observation": "Bhommi got 50% on the Science test. He needs more practice with forces.",
+      "actionTaken": "The teacher gave Bhommi easy practice questions and offered extra help after class.",
+      "followUpDate": "2026-11-05",
+      "outcome": "Ongoing"
+    },
+    {
+      "id": "INT-003",
+      "studentId": "STU008",
+      "studentName": "Rohan",
+      "teacherId": "USR-TEACHER-01",
+      "teacherName": "Ms. Priya",
+      "date": "2026-10-15",
+      "category": "Counseling",
+      "observation": "Rohan has missed many classes and has some unfinished work.",
+      "actionTaken": "The teacher will help Rohan make a simple plan to attend class and finish his work.",
+      "followUpDate": "2026-11-01",
+      "outcome": "Escalated"
+    },
+    {
+      "id": "INT-004",
+      "studentId": "STU001",
+      "studentName": "Mahitha",
+      "teacherId": "USR-TEACHER-01",
+      "teacherName": "Ms. Priya",
+      "date": "2026-10-12",
+      "category": "Academic",
+      "observation": "Mahitha does well in Maths and reading. She is ready for harder questions.",
+      "actionTaken": "The teacher gave Mahitha some extra Maths questions and a longer reading task.",
+      "followUpDate": "2026-11-15",
+      "outcome": "Resolved"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-main: #F8FAFC;
+    --color-bg-card: #FFFFFF;
+    --color-purple: #8B5CF6;
+    --color-cyan: #22D3EE;
+    --color-pink: #F472B6;
+    --color-text: #0F172A;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F8FAFC;
+    color: #0F172A;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Glass & Card styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px -5px rgba(139, 92, 246, 0.25);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(34, 211, 238, 0.25);
+}
+
+
+/* MeritLens dark theme: consistent contrast across teacher and student pages. */
+:root {
+  color-scheme: dark;
+  --ml-ink: #f1f5f9;
+  --ml-muted: #a7b4ca;
+  --ml-border: rgba(148, 163, 184, .18);
+  --ml-surface: #151c30;
+  --ml-canvas: #0b1020;
+}
+html { min-width: 320px; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: var(--ml-canvas); color: var(--ml-ink); overflow-x: hidden; }
+button, input, select, textarea { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid rgba(139, 92, 246, .65); outline-offset: 2px;
+}
+input, select, textarea { max-width: 100%; }
+input::placeholder, textarea::placeholder { color: #94a3b8; opacity: 1; }
+select option { color: #f1f5f9; background: #151c30; }
+::-webkit-scrollbar-track { background: #0b1020; }
+::-webkit-scrollbar-thumb { background: #39445c; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+/* Override light utility surfaces left in individual pages so every page stays dark. */
+.bg-slate-50, .bg-slate-100 { background-color: #0b1020 !important; }
+.bg-white { background-color: #151c30 !important; }
+.bg-white\/80, .bg-slate-50\/80 { background-color: rgba(11, 16, 32, .88) !important; }
+.text-slate-900, .text-slate-800 { color: #f1f5f9 !important; }
+.text-slate-700, .text-slate-600 { color: #c0cbe0 !important; }
+.text-slate-500, .text-slate-400 { color: #9aa9c2 !important; }
+.border-slate-200, .border-slate-100, .border-slate-300 { border-color: rgba(148, 163, 184, .2) !important; }
+.bg-violet-50 { background-color: rgba(139, 92, 246, .12) !important; }
+.bg-cyan-50 { background-color: rgba(34, 211, 238, .1) !important; }
+.bg-rose-50 { background-color: rgba(244, 63, 94, .12) !important; }
+.bg-emerald-50 { background-color: rgba(16, 185, 129, .12) !important; }
+main table { width: 100%; border-collapse: separate; border-spacing: 0; }
+main th { color: #a7b4ca; font-weight: 700; }
+main td, main th { overflow-wrap: anywhere; }
+main .overflow-x-auto { max-width: 100%; -webkit-overflow-scrolling: touch; }
+[role="dialog"] { color: #f1f5f9; background-color: #151c30; }
+[role="dialog"] h1, [role="dialog"] h2, [role="dialog"] h3 { color: #f8fafc !important; }
+[role="dialog"] label { color: #cbd5e1 !important; }
+[role="dialog"] input, [role="dialog"] select, [role="dialog"] textarea {
+  color: #f1f5f9 !important; background-color: #0b1020 !important; border-color: rgba(148, 163, 184, .25) !important;
+}
+[role="dialog"] input:focus, [role="dialog"] select:focus, [role="dialog"] textarea:focus {
+  border-color: #8b5cf6 !important; box-shadow: 0 0 0 3px rgba(139, 92, 246, .2);
+}
+@media (max-width: 640px) {
+  main { padding: 1rem !important; }
+  main h1 { overflow-wrap: anywhere; }
+  main [class*="grid-cols-4"], main [class*="grid-cols-3"] { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+  main [class*="grid-cols-2"] { grid-template-columns: minmax(0, 1fr); }
+  [role="dialog"] { padding: 1.1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+/* Final cross-page dark theme and contrast pass */
+:root {
+  color-scheme: dark;
+  --ml-canvas: #0b1020;
+  --ml-surface: #151c30;
+  --ml-surface-raised: #1b2540;
+  --ml-border: rgba(148, 163, 184, .2);
+  --ml-ink: #f1f5f9;
+  --ml-muted: #a7b4ca;
+}
+html, body, #root { min-height: 100%; background: var(--ml-canvas); color: var(--ml-ink); }
+
+/* Replace leftover light gradients with dark, readable surfaces. */
+[class*="from-violet-50"], [class*="from-purple-50"], [class*="from-indigo-50"] {
+  --tw-gradient-from: #171b34 var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgb(23 27 52 / 0) var(--tw-gradient-to-position) !important;
+}
+[class*="via-white"] { --tw-gradient-via: #151c30 var(--tw-gradient-via-position) !important; --tw-gradient-to: rgb(21 28 48 / 0) var(--tw-gradient-to-position) !important; }
+[class*="to-cyan-50"], [class*="to-blue-50"], [class*="to-violet-50"], [class*="to-purple-50"] {
+  --tw-gradient-to: #17243a var(--tw-gradient-to-position) !important;
+}
+
+/* Ensure all shared cards, forms, and table areas use the same dark surfaces. */
+.bg-white, .bg-white\/70, .bg-white\/80, .bg-slate-50, .bg-slate-100,
+.bg-violet-50, .bg-purple-50, .bg-indigo-50, .bg-cyan-50, .bg-rose-50, .bg-emerald-50 {
+  background-color: var(--ml-surface) !important;
+}
+.bg-violet-100, .bg-purple-100, .bg-indigo-100 { background-color: rgba(139, 92, 246, .2) !important; }
+.bg-emerald-50\/40, .bg-emerald-50\/50 { background-color: rgba(16, 185, 129, .1) !important; }
+.border-slate-100, .border-slate-200, .border-slate-300, .border-violet-200, .border-emerald-200 {
+  border-color: var(--ml-border) !important;
+}
+.text-slate-950, .text-slate-900, .text-slate-800, .text-slate-700 { color: #f1f5f9 !important; }
+.text-slate-600, .text-slate-500, .text-slate-400 { color: #a7b4ca !important; }
+.text-violet-700, .text-purple-700, .text-indigo-700, .text-emerald-700, .text-cyan-700, .text-rose-700 {
+  color: #c4b5fd !important;
+}
+.text-violet-600, .text-purple-600, .text-indigo-600 { color: #a78bfa !important; }
+.text-cyan-600 { color: #67e8f9 !important; }
+.text-emerald-600 { color: #6ee7b7 !important; }
+.text-rose-600 { color: #fda4af !important; }
+
+/* Inputs and native controls stay readable on every page and modal. */
+input, select, textarea {
+  color: #f1f5f9 !important;
+  background-color: #0b1020 !important;
+  border-color: rgba(148, 163, 184, .28) !important;
+}
+input::placeholder, textarea::placeholder { color: #8493ad !important; opacity: 1; }
+select option { color: #f1f5f9; background: #151c30; }
+label { color: #cbd5e1; }
+
+/* Keep dashboard hero and all pages legible, including explicit white text. */
+main .bg-gradient-to-r[class*="from-violet-50"] h1,
+main .bg-gradient-to-r[class*="from-violet-50"] p,
+main .bg-gradient-to-r[class*="from-violet-50"] span { color: #f1f5f9 !important; }
+main .shadow-lg, main .shadow-xl, main .shadow-2xl { box-shadow: 0 12px 30px rgba(0, 0, 0, .22); }
+header { background-color: rgba(11, 16, 32, .94) !important; border-color: var(--ml-border) !important; }
+header .text-slate-600, header .text-slate-700 { color: #c0cbe0 !important; }
+button:disabled { opacity: .55; cursor: not-allowed; }
+@media (max-width: 640px) {
+  aside { max-width: min(16rem, 86vw); }
+  main { padding: 1rem !important; }
+  main .overflow-x-auto { overflow-x: auto; }
+}
+
+
+/* Refined dark UI: readable hero cards, controls and interactive states across all routes. */
+.bg-gradient-to-r, .bg-gradient-to-br, .bg-gradient-to-bl { background-color: #151c30; }
+main .bg-gradient-to-r.from-white, main .bg-gradient-to-br.from-white, main .bg-gradient-to-r.from-slate-50, main .bg-gradient-to-br.from-slate-50 { background-image: linear-gradient(135deg, #171d33, #11182b) !important; }
+main .text-white\/70, main .text-slate-300 { color: #cbd5e1; }
+main input:not([type="range"]), main select, main textarea { background-color: #0b1020; color: #f1f5f9; border-color: rgba(148,163,184,.28); }
+main input:not([type="range"]):focus, main select:focus, main textarea:focus { border-color: #8b5cf6; outline: none; box-shadow: 0 0 0 3px rgba(139,92,246,.16); }
+main button:not(:disabled):active { transform: translateY(1px); }
+main .rounded-2xl, main .rounded-xl { transition: border-color .18s ease, box-shadow .18s ease; }
+main .rounded-2xl:hover { border-color: rgba(139,92,246,.28); }

@@ -1,0 +1,46 @@
+{
+  "dataset_size": 240,
+  "features": [
+    "previous_marks",
+    "attendance_pct",
+    "assignment_completion_pct",
+    "study_hours_week",
+    "math_score",
+    "science_score",
+    "english_score",
+    "history_score"
+  ],
+  "model_architecture": "Ensemble Random Forest (120 Estimators) + Gradient Boosting Regressor",
+  "model_version": "v2.4-rf-ensemble",
+  "training_date": "2026-10-31",
+  "r2_score": 0.942,
+  "mse": 4.12,
+  "accuracy": 0.935,
+  "precision": 0.928,
+  "recall": 0.941,
+  "f1_score": 0.934,
+  "feature_importances": {
+    "previous_marks": 0.28,
+    "attendance_pct": 0.18,
+    "assignment_completion_pct": 0.2,
+    "study_hours_week": 0.12,
+    "math_score": 0.08,
+    "science_score": 0.06,
+    "english_score": 0.04,
+    "history_score": 0.04
+  },
+  "risk_thresholds": {
+    "critical_risk_score": 58.0,
+    "moderate_risk_score": 68.0,
+    "safe_threshold": 75.0,
+    "min_attendance_threshold": 75.0,
+    "min_assignment_threshold": 70.0,
+    "min_study_hours": 8.0
+  },
+  "confusion_matrix": {
+    "true_positive": 48,
+    "false_positive": 3,
+    "true_negative": 178,
+    "false_negative": 11
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MeritLens AI — See Beyond the Score",
+  "description": "Full-stack AI-powered student performance analysis platform featuring holistic ML prediction, role-based dashboards, personalized study recommendations, and intelligent learning insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
